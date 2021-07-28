@@ -156,11 +156,10 @@ function bigOrSmall(nums){
       answers.push("small");
     }
   }
-  for(i = 0; i < answers.length; i++){
-    console.log(answers[i])
-  }
+  return answers
 }
 let arrayEvaluator = bigOrSmall(bigOrSmallArray);
+console.log(arrayEvaluator[2])
 ////////////////// PROBLEM 10 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
 let loser = 'Glimmer'
